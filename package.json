@@ -1,0 +1,25 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "landing page for natours",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass assets/sass/main.scss assets/css/master/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "myweb"
+  },
+  "author": "Alexandru Cardas",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.3"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  },
+  "keywords": [
+    "Natours",
+    "website"
+  ]
+}
