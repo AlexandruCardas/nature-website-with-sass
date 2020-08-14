@@ -146,7 +146,7 @@ body {
     animation: moveInRight 1s ease-out; }
     @media only screen and (max-width: 37.5em) {
       .heading-primary--sub {
-        letter-spacing: .5rem; } }
+        letter-spacing: 0.5rem; } }
 
 .heading-secondary {
   font-size: 3.5rem;
@@ -156,8 +156,8 @@ body {
   background-image: linear-gradient(to right, #7ed56f, #28b485);
   -webkit-background-clip: text;
   color: transparent;
-  letter-spacing: .2rem;
-  transition: all .2s; }
+  letter-spacing: 0.2rem;
+  transition: all 0.2s; }
   @media only screen and (max-width: 56.25em) {
     .heading-secondary {
       font-size: 3rem; } }
@@ -226,7 +226,7 @@ ORDER: Base + typography > general layout + grid > page layout > components
   height: 100%;
   width: 100%;
   z-index: -1;
-  opacity: .15;
+  opacity: 0.15;
   overflow: hidden; }
   .bg-video__content {
     height: 100%;
@@ -239,7 +239,7 @@ ORDER: Base + typography > general layout + grid > page layout > components
   padding: 1.5rem 4rem;
   display: inline-block;
   border-radius: 10rem;
-  transition: all .2s;
+  transition: all 0.2s;
   position: relative;
   font-size: 1.6rem;
   border: none;
@@ -279,10 +279,10 @@ ORDER: Base + typography > general layout + grid > page layout > components
   top: 0;
   left: 0;
   z-index: -1;
-  transition: all .4s; }
+  transition: all 0.4s; }
 
 .btn--animated {
-  animation: moveInBottom .5s ease-out .75s;
+  animation: moveInBottom 0.5s ease-out 0.75s;
   animation-fill-mode: backwards; }
 
 .btn-text:link, .btn-text:visited {
@@ -292,7 +292,7 @@ ORDER: Base + typography > general layout + grid > page layout > components
   text-decoration: none;
   border-bottom: 1px solid #55c57a;
   padding: 3px;
-  transition: all .2s; }
+  transition: all 0.2s; }
 
 .btn-text:hover {
   background-color: #55c57a;
@@ -311,7 +311,7 @@ ORDER: Base + typography > general layout + grid > page layout > components
   height: 52rem; }
   .card__side {
     height: 52rem;
-    transition: all .8s ease;
+    transition: all 0.8s ease;
     position: absolute;
     top: 0;
     left: 0;
@@ -435,7 +435,7 @@ ORDER: Base + typography > general layout + grid > page layout > components
     border-radius: 2px;
     position: absolute;
     z-index: 10;
-    transition: all .2s;
+    transition: all 0.2s;
     outline-offset: 2rem; }
     @media only screen and (max-width: 56.25em) {
       .composition__photo {
@@ -481,13 +481,13 @@ ORDER: Base + typography > general layout + grid > page layout > components
   text-align: center;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-  transition: transform .3s; }
+  transition: transform 0.3s; }
   @media only screen and (max-width: 56.25em) {
     .feature-box {
       padding: 2rem; } }
   .feature-box__icon {
     font-size: 6rem;
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
     display: inline-block;
     background-image: linear-gradient(to right, #7ed56f, #28b485);
     -webkit-background-clip: text;
@@ -512,7 +512,7 @@ ORDER: Base + typography > general layout + grid > page layout > components
   border-bottom: 3px solid transparent;
   width: 90%;
   display: block;
-  transition: all .3s; }
+  transition: all 0.3s; }
   @media only screen and (max-width: 56.25em) {
     .form__input {
       width: 100%; } }
@@ -529,9 +529,9 @@ ORDER: Base + typography > general layout + grid > page layout > components
   font-size: 1.2rem;
   font-weight: 700;
   margin-left: 2rem;
-  margin-top: .7rem;
+  margin-top: 0.7rem;
   display: block;
-  transition: all .3s; }
+  transition: all 0.3s; }
 
 .form__input:placeholder-shown + .form__label {
   opacity: 0;
@@ -563,7 +563,7 @@ ORDER: Base + typography > general layout + grid > page layout > components
   display: inline-block;
   position: absolute;
   left: 0;
-  top: -.4rem; }
+  top: -0.4rem; }
   .form__radio-button::after {
     content: "";
     display: block;
@@ -576,7 +576,7 @@ ORDER: Base + typography > general layout + grid > page layout > components
     transform: translate(-50%, -50%);
     background-color: #55c57a;
     opacity: 0;
-    transition: opacity .2s; }
+    transition: opacity 0.2s; }
 
 .form__radio-input:checked ~ .form__radio-label .form__radio-button::after {
   opacity: 1; }
@@ -607,7 +607,7 @@ ORDER: Base + typography > general layout + grid > page layout > components
   z-index: 9999;
   opacity: 0;
   visibility: hidden;
-  transition: all .3s;
+  transition: all 0.3s;
   backdrop-filter: blur(10px);
   background-color: rgba(0, 0, 0, 0.3); }
   .popup__content {
@@ -622,7 +622,7 @@ ORDER: Base + typography > general layout + grid > page layout > components
     display: table;
     overflow: hidden;
     opacity: 0;
-    transition: all .5s .2s; }
+    transition: all 0.5s 0.2s; }
   .popup__left {
     width: 33.333333%;
     display: table-cell; }
@@ -661,7 +661,7 @@ ORDER: Base + typography > general layout + grid > page layout > components
     font-size: 3rem;
     text-decoration: none;
     display: inline-block;
-    transition: all .2s;
+    transition: all 0.2s;
     line-height: 1; }
   .popup__close:hover {
     color: #55c57a; }
@@ -705,7 +705,7 @@ ORDER: Base + typography > general layout + grid > page layout > components
     height: 100%;
     transform: translateX(-4rem) scale(1.4);
     backface-visibility: hidden;
-    transition: all .5s; }
+    transition: all 0.5s; }
   .story__text {
     transform: skewX(12deg); }
     @media only screen and (max-width: 37.5em) {
@@ -721,7 +721,7 @@ ORDER: Base + typography > general layout + grid > page layout > components
     font-size: 1.7rem;
     text-align: center;
     opacity: 0;
-    transition: all .5s;
+    transition: all 0.5s;
     backface-visibility: hidden; }
   .story:hover .story__caption {
     opacity: 1;
@@ -767,7 +767,7 @@ ORDER: Base + typography > general layout + grid > page layout > components
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block;
-    transition: all .2s; }
+    transition: all 0.2s; }
   .footer__link:hover, .footer__link:active {
     color: #55c57a;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
@@ -814,13 +814,13 @@ ORDER: Base + typography > general layout + grid > page layout > components
   .row .col-1-of-3 {
     width: calc((100% - 2 * 6rem) / 3); }
   .row .col-2-of-3 {
-    width: calc(2 * ((100% - 2 * 6rem) / 3) + 6rem); }
+    width: calc( 2 * ((100% - 2 * 6rem) / 3) + 6rem); }
   .row .col-1-of-4 {
     width: calc((100% - 3 * 6rem) / 4); }
   .row .col-2-of-4 {
-    width: calc(2 * ((100% - 3 * 6rem) / 4) + 6rem); }
+    width: calc( 2 * ((100% - 3 * 6rem) / 4) + 6rem); }
   .row .col-3-of-4 {
-    width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
+    width: calc( 3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
 
 .header {
   height: 85vh;
@@ -927,7 +927,7 @@ ORDER: Base + typography > general layout + grid > page layout > components
   text-transform: uppercase;
   background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #fff 50%);
   background-size: 220%;
-  transition: all .4s; }
+  transition: all 0.4s; }
   .navigation__link:link span, .navigation__link:visited span {
     margin-right: 1.5rem;
     display: inline-block; }
@@ -957,11 +957,11 @@ ORDER: Base + typography > general layout + grid > page layout > components
     content: "";
     position: absolute;
     left: 0;
-    transition: all .2s; }
+    transition: all 0.2s; }
   .navigation__icon::before {
-    top: -.8rem; }
+    top: -0.8rem; }
   .navigation__icon::after {
-    top: .8rem; }
+    top: 0.8rem; }
 
 .navigation__button:hover .navigation__icon::before {
   top: -1rem; }
